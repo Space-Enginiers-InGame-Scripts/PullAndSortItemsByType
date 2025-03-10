@@ -5,7 +5,7 @@ Pulls items and sorts them from cargos, assemblers, and refineries.
 
 
 # How to run?
-- EN
+- # EN
 1. Place `Programmable Block` (FOR DEBUG `LCD Panel` => DEBUG_LCD)
 2. Add to cargos name one or several this item types:
 - [INGOTS]
@@ -15,7 +15,7 @@ Pulls items and sorts them from cargos, assemblers, and refineries.
 3. Open `Programmable Block`, paste my script and enjoy your systemised items!
 
 
-- RU
+- # RU
 1. Поставь `Programmable Block` (FOR DEBUG `LCD Panel` => DEBUG_LCD)
 2. Добавь в название контейнера один или несколько типов предметов:
 - [INGOTS]
