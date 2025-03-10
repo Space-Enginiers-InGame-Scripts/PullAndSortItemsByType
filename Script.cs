@@ -1,3 +1,4 @@
+
 string lcd_name = "DEBUG_LCD";
 
 string black_listed_name = "SYS_SORTING_CACHE";
@@ -171,7 +172,7 @@ public void sortRefineryItems() {
           break;
         }
         foreach (MyInventoryItem item in items) {
-          foreach (IMyCargoContainer container_dist in Containers["INGOTS"]) {
+          foreach (IMyCargoContainer container_dist in Containers["[INGOTS]"]) {
             if (!container_dist.GetInventory(0).IsFull) {
               refinery.GetInventory(1).TransferItemTo(container_dist.GetInventory(0), item);
               break;
@@ -194,7 +195,7 @@ public void sortAssemberItems() {
           break;
         }
         foreach (MyInventoryItem item in items) {
-          foreach (IMyCargoContainer container_dist in Containers["COMPONENT"]) {
+          foreach (IMyCargoContainer container_dist in Containers["[COMPONENTS]"]) {
             if (!container_dist.GetInventory(0).IsFull) {
               assembler.GetInventory(1).TransferItemTo(container_dist.GetInventory(0), item);
               break;
